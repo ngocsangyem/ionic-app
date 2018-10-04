@@ -1,0 +1,7 @@
+{
+  "name": "fullstack-vietnam",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
