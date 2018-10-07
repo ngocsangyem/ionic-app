@@ -17,6 +17,8 @@
 ## Cài đặt
 ```bash
 npm i -g cordova ionic yarn
+npm install -g ios-deploy
+brew install gradle
 
 # Cài dependencies
 yarn 
@@ -24,6 +26,12 @@ yarn
 # Chạy Dev
 ionic serve
 ```
+
+## Build
+
+`cordova platform add android ios --save`
+`ionic cordova build ios --prod`
+`ionic cordova build android --prod`
 
 ## Deploying
 
